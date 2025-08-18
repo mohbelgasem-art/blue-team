@@ -3,5 +3,5 @@ ip = log_takens[9]
 month, day, time, host, *message_ports= log_takens
 
 print(f"[PARSED] Date: {month} {day} {time}, Host: {host}")
-print(f"[MESSAGE]: {"".join(message_ports)}")
-print(f"[IP]: {" ".join(ip)}")
+print(f"[MESSAGE]: {" ".join(message_ports)}")
+print(f"[IP]: {" ".join(ip)}"
